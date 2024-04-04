@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/formdata?_method=PATCH" method="post">
+      <label for="inpt1">Enter value</label>
+      <input type="number" name="inpt1" id="inpt1" />
+      <label for="inpt2">Enter value</label>
+      <input type="number" name="inpt2" id="inpt2" />
+      <label for="symbol">Select Symbol</label>
+      <select name="symbol" id="symbol">
+          <option value="+">Addition</option>
+          <option value="-">subtraction</option>
+          <option value="*">Multification</option>
+          <option value="/">divide</option>
+      </select>
+      <button>submit</button>
+    </form>
+  </body>
+</html>
